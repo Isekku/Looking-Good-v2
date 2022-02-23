@@ -1,55 +1,68 @@
-nav{
-    width: 95%;
-    color: #17202A;
+/* icons + logo */
+.fa-solid, .fa-thin{
+    font-size: 24px;
+    padding-left: 20px;
 }
 
-nav ul{
-    display: flex;
-    align-items: center;
-    height: 100%;
+.fa-basket-shopping{
+    padding-right: 20px;
 }
 
-nav ul a {
-    display: inline;
-    font-size: 1em;
-    text-align: center;
-    flex: 10;
+.logohub{
+    height: 25px;
+    padding-left: 20px;
 }
 
-nav ul a li{
-    align-items: center;
+.fa-magnifying-glass{
+    padding-left: 0;
 }
 
-.logo{
-    width: 50px;
-    height: 50px;
-}
-
+/* navbar */
 .navbar{
-    display: flex;
     width: 100%;
-    justify-content: center;
-    border-bottom: solid 2px rgba(234, 236, 238, 1);
 }
 
-.lien{
-    height: 100%;
+nav{
     display: flex;
     align-items: center;
-    border-bottom: solid transparent 1px;
 }
 
-.lien:hover{
-    color: #B97A57;
-    border-bottom: solid #B97A57 1px;
+.nav{
+    flex: 1;
+    padding: 10px;
 }
 
-.gauche{
+.nav1{
+    display: flex;
+}
+
+.nav3{
+    display: flex;
+    justify-content: right;
+}
+
+/*input + button*/
+#article-search{
+    width: 80%;
+    height: 2em;
+    padding: 18px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    flex: 13;
+}
+
+#article-button{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
     flex: 1;
 }
 
-.centrage{
-    flex: 1;
+.buttonseach{
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 11px;
 }
-
-
