@@ -1,0 +1,11 @@
+.animated-background{
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    display: flex;
+    color: white;
+}
+
+.lglogodiv{
+    flex: 1;
+}

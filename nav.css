@@ -2,6 +2,12 @@
 .fa-solid, .fa-thin{
     font-size: 24px;
     padding-left: 20px;
+    transition-property: color;
+    transition-duration: 300ms;
+}
+
+.fa-solid:active, .fa-thin:active{
+    color: #C1C1C1;
 }
 
 .fa-basket-shopping{
@@ -25,6 +31,7 @@
 nav{
     display: flex;
     align-items: center;
+    background-color: #FFF;
 }
 
 .nav{
