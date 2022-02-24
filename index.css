@@ -24,14 +24,40 @@
     margin-top: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows:300px;
-    background-color: yellow;
+    grid-auto-rows:500px;
 }
 
 .content{
-    border: 2px dashed red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
 }
 
+
+.image1{
+    background-image: url("Bibliotheque/Photo_montre/histoire1.jpg");
+    border-radius: 10%;
+    background-size: contain;
+}
+
+.image2{
+    background-image: url("Bibliotheque/Photo_montre/histoire2.jpg");
+    border-radius: 10%;
+    background-size: contain;
+}
+
+.histoire1{
+    font-size: 2em;
+}
+
+.titlehistory{
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 2%;
+    font-weight: normal;
+}
 
 /*Animation + media queries*/
 @keyframes fond{
