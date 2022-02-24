@@ -59,6 +59,15 @@
     font-weight: normal;
 }
 
+/*Footer*/
+.footer{
+    background-color: #212121;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+
 /*Animation + media queries*/
 @keyframes fond{
     0%{
