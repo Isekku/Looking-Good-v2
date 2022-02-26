@@ -1,5 +1,4 @@
 /*Background animé*/
-
 .animated-background{
     width: 100%;
     height: 800px;
@@ -18,6 +17,8 @@
     display: flex;
     align-items: center;
 }
+
+
 
 /*Article sur l'entreprise*/
 .history{
@@ -62,26 +63,75 @@
     font-family: 'Oswald', sans-serif;
 }
 
+
+
 /*Footer*/
 .footer{
     background-color: #212121;
     width: 100%;
-    height: 200px;
+    height: 100px;
     margin-top: 50px;
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
 }
 
+.fa-brands{
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+.brandtext{
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
 .foot{
-    border: 2px dashed red;
+    text-align: center;
 }
 
 .foot1{
     text-align: center;
     color: white;
     font-family: "Lato";
+    display: grid;
+    align-items: flex-end;
+    font-size: 1.2em;
 }
 
+.foot2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot3{
+    display: grid;
+    align-items: flex-end;
+    color: white;
+    font-size: 0.9em;
+}
+
+.smedia{
+}
+
+.fa-twitter{
+    color: #00acee;
+}
+
+.fa-instagram{
+    color: #FFFFFF;
+}
+
+.fa-facebook-f{
+    color: #3b5998;
+}
+
+.fa-youtube{
+ color: #FF0000;
+}
 
 /*Animation + media queries*/
 @keyframes fond{
