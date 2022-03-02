@@ -1,7 +1,6 @@
 body{
-    width: 100%;
-    height: 100%;
-    justify-content: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 .background{
@@ -9,11 +8,11 @@ body{
     background: url("../../Bibliotheque/Fond_shopping/backgroundshopping.jpg");
     background-size: cover;
     grid-template-rows: 1fr 15fr;
-    width: 100%;
+    width: 100vw;
 }
 
 .squelette{
-    width: 85%;
+    width: 85vw;
     background-color: #F4F4F4;
     justify-self: center;
     display: grid;
@@ -37,7 +36,7 @@ body{
 
 /*Content*/
 .content{
-    border: 3px solid #212121;
+    border: 0.7vh solid #212121;
 }
 
 .content1{
@@ -70,7 +69,7 @@ body{
 /*Content 1*/
 .titlec1{
     font-family: 'Oswald', sans-serif;
-    font-size: 35px;
+    font-size: 4vh;
     text-align: center;
 }
 
@@ -88,15 +87,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2em;
+    font-size: 3vh;
     font-family: "Raleway", sans-serif;
     color: #212121;
 }
 
 .photoart{
-    border: 1.6px solid  #212121;
-    border-radius: 4px;
-    height: 85%;
+    border: 0.3vh solid  #212121;
+    border-radius: 0.5vh;
+    height: 10vh;
     display: flex;
     align-self: center;
 }
@@ -104,11 +103,11 @@ body{
 .description{
     display: flex;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 1vh;
 }
 
 .desctext{
-    font-size: 1em;
+    font-size: 2vh;
     font-family: "Raleway", sans-serif;;
     color: #212121;
 }
@@ -122,7 +121,7 @@ body{
 
 .titlec2{
     font-family: 'Oswald', sans-serif;
-    font-size: 35px;
+    font-size: 4vh;
     text-align: center;
 }
 
@@ -137,22 +136,23 @@ body{
 }
 
 .photo{
-    border: 1.6px solid black;
-    border-radius: 4px;
-    height: 100%;
-    width: 90%;
+    border: 0.3vh solid black;
+    border-radius: 0.5vh;
+    height: 20vh;
+    width: 14vw;
 }
 
 .textc2{
     font-family: "Raleway", sans-serif;
-    padding-top: 10px;
+    padding-top: 1vh;
+    font-size: 2vh;
 }
 
 /*Content 3*/
 
 /*Content 4*/
 .promo{
-    padding-top: 20px;
+    padding-top: 2vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,34 +160,35 @@ body{
 
 .promotitle{
     font-family: 'Oswald', sans-serif;
-    font-size: 25px;
+    font-size: 3.5vh;
 }
 
 .formpromocode{
     display: flex;
-    padding-bottom: 20px;
+    padding-bottom: 2vh;
 }
 
 .promocode{
-    border: 1px solid #212121;
-    border-radius: 4px;
+    border: 0.3vh solid #212121;
+    border-radius: 0.5vh;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
-    border-right: 1px solid transparent;
+    border-right: 0.3vh solid transparent;
     flex: 1;
-    height: 2em;
+    height: 3.5vh;
+    width: 30vh;
 }
 
 .promo-button{
     background-color: #212121;
-    font-size: 1em;
+    font-size: 2vh;
     color: white;
     font-family: 'Oswald', sans-serif;
-    border: 1px solid #212121;
-    border-radius: 4px;
+    border: 0.3vh solid #212121;
+    border-radius: 0.5vh;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    padding: 0 20px;
+    padding: 0 2vh;
 }
 
 .promo-button:active{
@@ -197,49 +198,50 @@ body{
 .priceform{
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
+    padding-left: 2vh;
     font-family: "Raleway", sans-serif;
 }
 
 .titleprice{
-    font-size: 2em;
-    padding-bottom: 20px;
+    font-size: 4vh;
+    padding-bottom: 2vh;
 }
 
 .price{
-    font-size: 1em;
-    padding-bottom: 10px;
+    font-size: 2vh;
+    padding-bottom: 1vh;
 }
 
 .pricetitle{
-    font-size: 1.3em;
-    padding-bottom: 10px;
+    font-size: 2.8vh;
+    padding-bottom: 1vh;
 }
 
 .tax{
-    padding-bottom: 10px;
+    padding-bottom: 1vh;
+    font-size: 2vh;
     color: #5A5A5A;
 }
 
 .totalprice{
-    font-size: 1.3em;
-    padding-bottom: 10px;
+    font-size: 2.8vh;
+    padding-bottom: 1vh;
 }
 
 .finalprice{
-    font-size: 2em;
-    padding-bottom: 10px;
+    font-size: 4vh;
+    padding-bottom: 1vh;
 }
 
 .final-button{
-    width: 90%;
-    height: 2em;
+    width: 40vh;
+    height: 4vh;
     background-color: #212121;
     color: white;
-    border: 1px solid #212121;
-    border-radius: 4px;
+    border: 0.3vh solid #212121;
+    border-radius: 0.5vh;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.2em;
+    font-size: 2vh;
 }
 
 .final-button:active{

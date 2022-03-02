@@ -1,10 +1,10 @@
 /* icons + logo */
 .fa-solid, .fa-thin{
-    font-size: 24px;
-    padding-left: 20px;
+    font-size: 2.9vh;
+    padding-left: 2vh;
     transition-property: color;
     transition-duration: 300ms;
-    color: #C7998D;
+    color: #FFF;
 }
 
 .fa-solid:active, .fa-thin:active{
@@ -12,12 +12,12 @@
 }
 
 .fa-basket-shopping{
-    padding-right: 20px;
+    padding-right: 2vh;
 }
 
 .logohub{
-    height: 25px;
-    padding-left: 20px;
+    height: 3vh;
+    padding-left: 2vh;
 }
 
 .fa-magnifying-glass{
@@ -25,22 +25,19 @@
 }
 
 /* navbar */
-.navbar{
-    width: 100%;
-}
 
 nav{
-    margin: 5px;
     display: flex;
     align-items: center;
     background-color: rgba(0,0,0,0);
     position: fixed;
-    width: 100%;
+    width: 100vw;
+    z-index: 1000;
 }
 
 .nav{
     flex: 1;
-    padding: 10px;
+    padding: 1vh;
 }
 
 .nav1{
@@ -54,19 +51,20 @@ nav{
 
 /*input + button*/
 #article-search{
-    width: 80%;
-    height: 2em;
-    padding: 18px;
-    border: 1px solid transparent;
-    border-radius: 10px;
+    height: 3vh;
+    padding: 2vh;
+    border: 0.1vh solid transparent;
+    border-radius: 1vh;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     flex: 13;
+    font-size: 1.5vh;
 }
 
 #article-button{
-    border: 1px solid transparent;
-    border-radius: 10px;
+    height: 4.2vh;
+    border: 0.1vh solid transparent;
+    border-radius: 1vh;
     border-bottom-left-radius: 0px;
     border-top-left-radius: 0px;
     flex: 1;
@@ -78,6 +76,7 @@ nav{
 
 .buttonseach{
     display: flex;
-    border: 1px solid rgba(0,0,0,0.3);
-    border-radius: 11px;
+    border: 0.1vh solid rgba(0,0,0,0.3);
+    border-radius: 1vh;
+    background-color: #C1C1C1;
 }
