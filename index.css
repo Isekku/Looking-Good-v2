@@ -71,10 +71,14 @@
 
 
 /*Footer*/
+footer{
+    width: 100vw;
+}
+
+
 .footer{
     background-color: #212121;
     height: 10vh;
-    margin-top: 4vh;
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
 }
