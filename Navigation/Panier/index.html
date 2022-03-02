@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="../../reset.css">
+        <link rel="stylesheet" href="nav.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lora&family=Oswald&family=Roboto&display=swap" rel="stylesheet">
@@ -15,7 +16,21 @@
     <body>
         <div class="background">
             <div class="header">
-                1
+                <nav>
+                    <div class="nav nav1 gauche">
+                        <a href=""><i class="fa-solid fa-bars"></i></a>
+                        <a href="../../index.html"><img src="../../Bibliotheque/Logo_icone/Logohubv2.png" alt="logo de looking good" class="logohub"></a>
+                    </div>
+                    <div class="nav nav2 milieu">
+                    </div>
+                    <div class="nav nav3">
+                        <div class="droite">
+                            <a href=""><i class="fa-solid fa-circle-question"></i></a>
+                            <a href=""><i class="fa-solid fa-envelope"></i></a>
+                            <a href="index.html"><i class="fa-solid fa-basket-shopping"></i></a>
+                        </div>
+                    </div>
+                </nav>
             </div>
             <div class="squelette">
                 <!--Conteneur 1-->
@@ -120,12 +135,31 @@
                     </div>
                 </div>
 
-
+                <!--Conteneur 2-->
                 <div class="conteneur conteneur2">
-                    <div class="content content3">3</div>
+                    <!--Content 3-->
+                    <div class="content content3"></div>
+                    <!--Content 4-->
                     <div class="content content4">
-                        <div class="promo">1</div>
-                        <div class="price">2</div>
+                        <div class="promo">
+                            <p class="promotitle">Code promo :</p>
+                            <form class="formpromocode">
+                                <input type="search" id="promocode" class="promocode" name="promocode"></input>
+                                <button id="promo-button" class="promo-button">Valider</button>
+                            </form>
+                        </div>
+                        <div class="priceform">
+                            <h2 class="titleprice">Prix :</h2>
+                            <p class="price">Rolex Datejust Argent: 2500€</p>
+                            <p class="price">Rolex Datejust Bleu marine: 5000€</p>
+                            <p class="price">Rolex Dababy Grid sidéral: 3750€</p>
+                            <p class="price">Rolex Bigmama: 1650€</p>
+                            <p class="pricetitle">Prix sans taxe : 12 900€</p>
+                            <p class="tax">TVA 20%</p>
+                            <p class="totalprice">Total à payer :</p>
+                            <p class="finalprice">15 480€</p>
+                            <button id="final-button" class="final-button">Passer à l'achat</button>
+                        </div>
                     </div>
                 </div>
             </div>

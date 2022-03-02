@@ -1,0 +1,83 @@
+/* icons + logo */
+.fa-solid, .fa-thin{
+    font-size: 24px;
+    padding-left: 20px;
+    transition-property: color;
+    transition-duration: 300ms;
+    color: #FFF;
+}
+
+.fa-solid:active, .fa-thin:active{
+    color: #C1C1C1;
+}
+
+.fa-basket-shopping{
+    padding-right: 20px;
+}
+
+.logohub{
+    height: 25px;
+    padding-left: 20px;
+}
+
+.fa-magnifying-glass{
+    padding-left: 0;
+}
+
+/* navbar */
+.navbar{
+    width: 100%;
+}
+
+nav{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    width: 100%;
+}
+
+.nav{
+    flex: 1;
+    padding: 10px;
+}
+
+.nav1{
+    display: flex;
+}
+
+.nav3{
+    display: flex;
+    justify-content: right;
+}
+
+/*input + button*/
+#article-search{
+    width: 80%;
+    height: 2em;
+    padding: 18px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    flex: 13;
+}
+
+#article-button{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    flex: 1;
+}
+
+#article-button:active{
+    background-color: #C1C1C1;
+}
+
+.buttonseach{
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 11px;
+}

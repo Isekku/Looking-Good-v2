@@ -6,8 +6,8 @@ body{
 
 .background{
     display: grid;
-    height: 120vh;
-    background-color: blue;
+    background: url("../../Bibliotheque/Fond_shopping/backgroundshopping.jpg");
+    background-size: cover;
     grid-template-rows: 1fr 15fr;
     width: 100%;
 }
@@ -37,22 +37,32 @@ body{
 
 /*Content*/
 .content{
-    border: 2px solid red;
+    border: 3px solid #212121;
 }
 
 .content1{
     display: grid;
     grid-template-rows: 1fr 4fr;
+    border-bottom: 0px;
+    border-right: 0px;
 }
 
 .content2{
     display: grid;
     grid-template-rows: 1fr 4fr;
+    border-right: 0px;
+}
+
+.content3{
+    background-image: url("../../Bibliotheque/Fond_shopping/Logoshopping.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .content4{
     display: grid;
     grid-template-rows: 1fr 6fr;
+    border-top: 0px;
 }
 
 
@@ -135,4 +145,98 @@ body{
 .textc2{
     font-family: "Raleway", sans-serif;
     padding-top: 10px;
+}
+
+/*Content 3*/
+
+/*Content 4*/
+.promo{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promotitle{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.formpromocode{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.promocode{
+    border: 1px solid #212121;
+    border-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right: 1px solid transparent;
+    flex: 1;
+    height: 2em;
+}
+
+.promo-button{
+    background-color: #212121;
+    font-size: 1em;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid #212121;
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0 20px;
+}
+
+.promo-button:active{
+    background-color: #000;
+}
+
+.priceform{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+.titleprice{
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.price{
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+.pricetitle{
+    font-size: 1.3em;
+    padding-bottom: 10px;
+}
+
+.tax{
+    padding-bottom: 10px;
+    color: #5A5A5A;
+}
+
+.totalprice{
+    font-size: 1.3em;
+    padding-bottom: 10px;
+}
+
+.finalprice{
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+.final-button{
+    width: 90%;
+    height: 2em;
+    background-color: #212121;
+    color: white;
+    border: 1px solid #212121;
+    border-radius: 4px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
 }

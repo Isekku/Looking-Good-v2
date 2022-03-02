@@ -5,7 +5,8 @@
 }
 
 .animatedimage{
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("Bibliotheque/Photo_montre/Photo_montre1.jpg");
     animation-name: fond;
     animation-duration: 30s;
@@ -42,12 +43,14 @@
     background-image: url("Bibliotheque/Photo_montre/histoire1.jpg");
     border-radius: 10%;
     background-size: contain;
+    background-size: cover;
 }
 
 .image2{
     background-image: url("Bibliotheque/Photo_montre/histoire2.jpg");
     border-radius: 10%;
     background-size: contain;
+    background-size: cover;
 }
 
 .histoire1{
