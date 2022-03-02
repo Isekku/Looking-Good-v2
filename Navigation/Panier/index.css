@@ -6,15 +6,15 @@ body{
 
 .background{
     display: grid;
-    height: 100vh;
+    height: 120vh;
     background-color: blue;
     grid-template-rows: 1fr 15fr;
     width: 100%;
 }
 
 .squelette{
-    width: 65%;
-    background-color: aliceblue;
+    width: 85%;
+    background-color: #F4F4F4;
     justify-self: center;
     display: grid;
     grid-template-columns: 4fr 1.5fr;
@@ -56,10 +56,10 @@ body{
 }
 
 
-/*Conteneur 1*/
+/*Content 1*/
 .titlec1{
     font-family: 'Oswald', sans-serif;
-    font-size: 2em;
+    font-size: 35px;
     text-align: center;
 }
 
@@ -100,4 +100,39 @@ body{
     font-size: 1em;
     font-family: "Raleway", sans-serif;;
     color: #212121;
+}
+
+
+/*Content 2*/
+.articlec2{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+.titlec2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.photocol{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+.photo{
+    border: 1.6px solid black;
+    border-radius: 4px;
+    height: 100%;
+    width: 90%;
+}
+
+.textc2{
+    font-family: "Raleway", sans-serif;
+    padding-top: 10px;
 }
