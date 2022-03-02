@@ -44,6 +44,7 @@
     border-radius: 10%;
     background-size: contain;
     background-size: cover;
+    filter: blur(1px);
 }
 
 .image2{
@@ -51,6 +52,7 @@
     border-radius: 10%;
     background-size: contain;
     background-size: cover;
+    filter: blur(1px);
 }
 
 .histoire1{

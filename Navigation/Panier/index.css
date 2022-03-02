@@ -54,6 +54,7 @@ body{
 }
 
 .content3{
+    background-color: #C7998D;
     background-image: url("../../Bibliotheque/Fond_shopping/Logoshopping.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -239,4 +240,8 @@ body{
     border-radius: 4px;
     font-family: 'Oswald', sans-serif;
     font-size: 1.2em;
+}
+
+.final-button:active{
+    background-color: #000;
 }
