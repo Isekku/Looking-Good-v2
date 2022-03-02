@@ -17,7 +17,7 @@ body{
 }
 
 .photoprom{
-    border-bottom: 2px solid #212121;
+    border-bottom: 0.3vh solid #212121;
     background-image: url("../../Bibliotheque/Fond_shopping/Logopromo.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,13 +30,13 @@ body{
     justify-content: space-evenly;
     width: 90%;
     justify-self: center;
-    border-bottom: 2px solid #212121;
+    border-bottom: 0.3vh solid #212121;
 }
 
 .catlink{
     display: block;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.5em;
+    font-size: 2.5vh;
 }
 
 .aboutus{
@@ -46,7 +46,7 @@ body{
     justify-content: space-evenly;
     width: 90%;
     justify-self: center;
-    border-bottom: 2px solid #212121;
+    border-bottom: 0.3vh solid #212121;
 }
 
 .lglogo{
@@ -72,7 +72,7 @@ body{
 
 .artphoto{
     flex: 3;
-    border: 6px solid #C7998D;
+    border: 1vh solid #C7998D;
     border-radius: 10px;
     width: 80%;
     align-self: center;
