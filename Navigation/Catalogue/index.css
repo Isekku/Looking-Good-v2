@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+    background-color: yellow;
+}
+
+.squelette{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+
+/*Navigation verticale*/
+.menuprofile{
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 1fr;
+    border-right: 2px solid #212121;
+}
+
+.photoprom{
+    border-bottom: 2px solid #212121;
+}
+
+
+/*Collection tout genre*/
+.collection{
+    background-color: blue;
+}
