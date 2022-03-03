@@ -71,8 +71,8 @@ body{
 
 .artphoto{
     flex: 3;
-    border: 1vh solid #C7998D;
-    border-radius: 2vh;
+    border: 0.6vh solid #C7998D;
+    border-radius: 2.2vh;
     width: 35vh;
     align-self: center;
     background-color: #FFF;
