@@ -35,6 +35,7 @@ body{
 .catlink{
     display: block;
     font-family: 'Oswald', sans-serif;
+    color: #212121;
     font-size: 2.5vh;
 }
 
